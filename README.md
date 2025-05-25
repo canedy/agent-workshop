@@ -23,6 +23,11 @@ npm install -g pnpm
 ```shell
 mkdir agent-workshop && cd agent-workshop
 pnpm init            # generates package.json
+
+or
+
+git clone https://github.com/canedy/agent-workshop.git
+pnpm install
 ```
 
 ### 2\. Install dependencies
