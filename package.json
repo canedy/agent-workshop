@@ -1,0 +1,35 @@
+{
+  "name": "agent-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "start": "node dist/cli.js"
+  },
+  "bin": {
+    "agent": "dist/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "lowdb": "^7.0.1",
+    "openai": "^4.103.0",
+    "ora": "^8.2.0",
+    "uuid": "^11.1.0",
+    "zod": "^3.25.28"
+  },
+  "devDependencies": {
+    "@types/lowdb": "^2.0.3",
+    "@types/node": "^22.15.21",
+    "@types/uuid": "^10.0.0",
+    "prettier": "^3.5.3",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
